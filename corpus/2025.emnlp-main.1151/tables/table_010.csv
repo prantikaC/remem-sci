@@ -1,0 +1,5 @@
+,NaturalQA,PopQA,TriviaQA
+BM25,56.1,35.7,63.6
+HippoRAG,70.3,49.2,72.8
+HippoRAG,44.4,53.8,-
+MS-RAG,78.1,54.1,75.3

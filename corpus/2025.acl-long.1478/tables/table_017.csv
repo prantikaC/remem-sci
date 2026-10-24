@@ -1,0 +1,5 @@
+Baselines,Editing.MacF1,Editing.MicF1,Editing.Setting Hit,Editing.Hit@1,Answerability Setting.Acc,Answerability Setting.Precision,Answerability Setting.Recall,Answerability Setting.F1
+RoG,8.19,9.25,11.51,7.19,46.41,61.40,37.53,46.59
+RoG-SFT,8.82,10.13,12.59,8.27,48.75,63.10,42.63,50.88
+RoG-subset,8.32,9.53,11.87,7.91,46.74,62.26,41.23,49.61
+RoG-general,8.67,9.75,12.23,7.91,47.25,62.90,42.76,50.91

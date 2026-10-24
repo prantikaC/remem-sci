@@ -1,0 +1,9 @@
+,MuSiQue,2Wiki,HotpotQA
+LongRAG,36.59,54.95,58.90
+Hipporag w/ IRCoT,37.09,58.50,54.51
+Ours (AnsInt),44.47,59.71,57.06
+Ours (CxtInt),43.16,63.14,59.43
+LongRAG,29.01,49.02,54.71
+Hipporag w/ IRCoT,29.30,51.17,53.79
+Ours (AnsInt),30.90,48.25,48.50
+Ours (CxtInt),33.15,52.18,60.03

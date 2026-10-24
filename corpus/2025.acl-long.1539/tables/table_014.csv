@@ -1,0 +1,3 @@
+Method.,HQA.Acc,HQA.F1,WQA.Acc,WQA.F1,MQA.Acc,MQA.F1
+DualRAG - w/o,70.0,65.7,85.0,77.3,66.3,56.3
+rerank,67.6,63.3,86.3,76.4,64.8,54.9

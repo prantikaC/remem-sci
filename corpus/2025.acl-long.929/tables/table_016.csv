@@ -1,0 +1,3 @@
+Model.,HotPotQA.R @ 2,HotPotQA.R @ 5,2Wiki.R @ 2,2Wiki.R @ 5,MuSiQue.R @ 2,MuSiQue.R @ 5
+HippoRAG,59.0 ∗ ∗,76.2 ∗ ∗,71.5 ∗,89.5 ∗,41.0 ∗ ∗,52.1 ∗ ∗
+KiRAG,70.7,88.3,73.1 ∗,90.2 ∗,51.6,64.3

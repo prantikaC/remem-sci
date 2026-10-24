@@ -1,0 +1,4 @@
+Methods,FID Ó,MMDist Ó,Diversity Ò,R Precision Ò
+Oracle,0.005,3.140,9.846,0.780
+Diffusion Model,0.624,5.536,10.281,0.630
+Transformer,0.379,3.232,10.221,0.761

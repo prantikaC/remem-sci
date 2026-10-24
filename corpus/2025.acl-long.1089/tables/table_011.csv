@@ -1,0 +1,4 @@
+Edge type,Examples
+SA edges,"(Node1, SA, Node2), (Node2, SA, Node3), (Node3, SA, Node4), (Node4, SA, Node5), . . ."
+SS edges,"(Node1, SS, Node13), (Node1, SS, Node12), (Node4, SS, Node1), (Node6, SS, Node1), (Node9, SS, Node15), . ."
+EC edges,"(Node2, EC, Node3), (Node2, EC, Node10), (Node3, EC, Node10), (Node2, EC, Node7), . . ."

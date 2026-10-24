@@ -1,0 +1,7 @@
+Experiment.,OBJNAV.Success,OBJNAV.SEL,OBJNAV.%Rooms,P ICKUP.Success,P ICKUP.SEL,P ICKUP.%Rooms,F ETCH.Success,F ETCH.SEL,F ETCH.%Rooms
+1k Training Episodes,19.0,14.3,47.6,58.2,54.1,31.2,2.0,1.5,44.5
+10k Training Episodes,39.0,31.1,52.9,80.7,78.0,32.1,7.5,5.9,46.3
+100k Training Episodes ( S POC ),57.0,46.2,51.5,90.1,86.9,30.3,14.0,10.5,49.3
+Self-Supervised IL,55.8,44.2,51.0,89.5,85.5,29.9,13.2,9.8,48.0
+RL+Meta-Learning,53.3,41.7,50.0,87.3,83.8,28.8,11.8,8.4,46.7
+DRAE (ours),60.5,49.0,54.1,92.5,89.3,31.5,17.0,13.5,51.0

@@ -1,0 +1,10 @@
+CodeFeedBack-ST 156k corpus &31k queries.Rank,CodeFeedBack-ST 156k corpus &31k queries.Model,CodeFeedBack-ST 156k corpus &31k queries.Dim.,Embed Latency.GPU,Retrieval Latency.GPU,Index.Size
+9,Contriever,768,7.8ms,38.1µs,0.3G
+3,E5-Base,768,7.4ms,38.1µs,0.3G
+5,BGE-Base,768,7.6ms,38.1µs,0.3G
+8,GTE-Base,768,7.8ms,38.1µs,0.3G
+7,UniXcoder,768,7.7ms,38.1µs,0.3G
+6,BGE-M3,1024,31.4ms,42.9µs,0.6G
+2,E5-Mistral,4096,1840ms,115.5µs,2.3G
+4,OpenAI-Ada-002,1536,-,56.8µs,0.9G
+1,Voyage-Code-002,1536,-,56.8µs,0.9G

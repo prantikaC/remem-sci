@@ -1,0 +1,13 @@
+Methods,MuSiQue,2Wiki,HotpotQA
+ChainRAG (AnsInt),50.54,62.55,60.73
+w/o Rewriting,38.18,59.69,55.19
+w/o EC edge,47.52,58.28,57.99
+w/o SS edge,47.40,59.78,58.40
+w/o SA edge,48.83,59.87,56.64
+w/o Graph,47.97,60.96,58.05
+ChainRAG (CxtInt),47.87,56.54,64.59
+w/o Rewriting,36.60,56.36,61.57
+w/o EC edge,45.34,55.12,61.73
+w/o SS edge,43.39,55.68,60.85
+w/o SA edge,47.36,55.08,61.32
+w/o Graph,40.18,54.76,60.19

@@ -1,0 +1,5 @@
+,MuSiQue.R@2,MuSiQue.R@5,2Wiki.R@2,2Wiki.R@5,HotpotQA.R@2,HotpotQA.R@5,Average.R@2,Average.R@5
+Llama-3-8B-instruct,46 . 2,57.3,79 . 2,89 . 9,79 . 1,87 . 5,68 . 2,78 . 3
+Llama-3-70B-instruct,46 . 8,57 . 2,79 . 5,90 . 6,79 . 3,88 . 1,68 . 5,78 . 6
+REBEL,36 . 1,48 . 3,74 . 3,79 . 2,67 . 3,68 . 0,59 . 2,65 . 2
+GPT-3.5-turbo,47 . 3,56 . 4,80 . 1,91 . 2,79 . 4,88 . 5,68 . 9,78 . 7

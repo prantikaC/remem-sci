@@ -1,0 +1,4 @@
+Baselines,WebQSP.MacF1,WebQSP.Hit,CWQ.MacF1,CWQ.Hit,M 3 GQA.MacF1,M 3 GQA.Hit
+ToG,-,82.60,-,67.60,37.72,43.72
+RoG,70.26,86.67,54.63,61.94,38.81,48.34
+G-Retriever,53.41,73.46,-,-,38.73,49.68

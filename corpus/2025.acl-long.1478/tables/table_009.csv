@@ -1,0 +1,5 @@
+,Single-hop,Multi-hop,Set,Aggregation,Editing,Answerability
+Rule-Based,4.75%,7.41%,8.44%,8.57%,7.96%,6.47%
+LLM-Based,5.11%,15.88%,19.09%,23.40%,17.47%,9.72%
+Manual (test),2.94%,4.46%,5.44%,7.59%,3.14%,3.54%
+Manual (val),2.57%,4.19%,5.83%,7.21%,3.19%,3.41%

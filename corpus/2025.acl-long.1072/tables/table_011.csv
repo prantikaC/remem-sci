@@ -1,0 +1,2 @@
+Corpus,Website (Link)
+APPS CoSQA Synthetic Text2sql CodeSearchNet CodeTransOcean Code-FeedBack CodeFeedBack-Filtered-Instruction,https://huggingface.co/datasets/codeparrot/apps https://github.com/microsoft/CodeXGLUE/tree/main/Text-Code/NL-code-search-WebQuery https://huggingface.co/datasets/gretelai/synthetic_text_to_sql https://huggingface.co/datasets/code-search-net/code_search_net https://huggingface.co/datasets/WeixiangYan/CodeTransOcean https://huggingface.co/datasets/m-a-p/Code-Feedback https://huggingface.co/datasets/m-a-p/CodeFeedback-Filtered-Instruction

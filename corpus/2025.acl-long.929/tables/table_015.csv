@@ -1,0 +1,5 @@
+Model.,HotPotQA.R @ 3,HotPotQA.R @ 5,2Wiki.R @ 3,2Wiki.R @ 5,MuSiQue.R @ 3,MuSiQue.R @ 5
+IRCoT,71.44,77.57,64.30,75.56,45.61,52.21
+KiRAG (Llama3),80.32,84.08,77.76,85.32,54.53,61.16
+KiRAG (Mistral),74.14,79.51,74.14,82.30,49.10,56.65
+KiRAG (Gemma2),79.66,84.03,77.04,83.59,54.82,62.42

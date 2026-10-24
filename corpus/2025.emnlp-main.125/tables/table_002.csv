@@ -1,0 +1,11 @@
+Model.,#Train.#Train,StackExchange.Bio.,StackExchange.Earth.,StackExchange.Econ.,StackExchange.Psy.,StackExchange.Rob.,StackExchange.Stack.,StackExchange.Sus.,Coding.Pony,Coding.LC.,Theorem-based.AoPS,Theorem-based.TheoT.,Theorem-based.TheoQ.,Avg..Avg.
+BM25†,-,18.2,27.9,16.4,13.4,10.9,16.3,16.1,4.3,24.7,6.5,2.1,7.3,13.7
+RankQwen 2.5 -7B,zero-shot,22.7,25.8,14.6,18.7,14.2,11.7,21.4,5.3,23.9,6.0,7.4,7.9,15.0
+RankGPT 4,zero-shot,33.8,34.2,16.7,27.0,22.3,27.7,11.1,15.6,3.4,1.2,8.6,0.2,16.8
+RankZephyr-7B,105K SFT,21.9,23.7,14.4,10.3,7.6,13.7,16.6,6.5,24.7,6.8,2.0,7.3,13.0
+Reasoning Language Model,Reasoning Language Model,Reasoning Language Model,Reasoning Language Model,Reasoning Language Model,Reasoning Language Model,Reasoning Language Model,Reasoning Language Model,Reasoning Language Model,Reasoning Language Model,Reasoning Language Model,Reasoning Language Model,Reasoning Language Model,Reasoning Language Model,Reasoning Language Model
+RankQwen 3 -32B,zero-shot,24.9,29.4,20.9,25.7,18.3,16.0,23.2,7.6,27.6,7.8,8.9,8.4,18.2
+RankQwen 3 -235B,zero-shot,26.4,26.7,22.1,26.3,18.8,17.0,24.9,8.2,27.2,7.7,11.7,8.6,18.8
+Rank-R1-7B,72k RL,26.0,28.5,17.2,24.2,19.1,10.4,24.2,4.3,19.8,4.3,10.9,8.3,16.4
+REARANK-7B,179 RL,23.4,27.4,18.5,24.2,17.4,16.3,25.1,8.0,27.0,7.4,9.5,7.9,17.7
+∆ over baseline*,,+0.8,+1.7,+4.0,+5.5,+3.3,+4.6,+3.7,+2.7,+3.0,+1.4,+2.1,0.0,+2.7

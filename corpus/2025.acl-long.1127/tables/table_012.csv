@@ -1,0 +1,4 @@
+Method,Gating Overhead,Expert Expansion,Total Latency
+Static MoE,1.2 ms,-,1.2 ms
+Switch Transformer,1.5 ms,-,1.5 ms
+DRAE (ours),2.3 ms,0.8 ms,3.1 ms

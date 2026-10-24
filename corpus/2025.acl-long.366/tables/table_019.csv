@@ -1,0 +1,4 @@
+SFT Data,Long-Context.Recall †,Long-Context.RAG,Long-Context.Re-rank,Long-Context.ICL,Long-Context.QA †,Long-Context.Summ. †,Long-Context.Avg.
+UltraChat,65.7,58.1,38.5,80.3,49.7,42.1,55.7
+Tulu v2,61.5,45.4,25.1,81.8,40.4,40.3,49.1
+ShareGPT,40.5,47.5,26.7,79.6,42.7,34.4,45.2

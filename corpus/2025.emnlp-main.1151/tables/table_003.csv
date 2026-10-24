@@ -1,0 +1,7 @@
+,MuSiQue.R@2,MuSiQue.R@5,2Wiki.R@2,2Wiki.R@5,HotpotQA.R@2,HotpotQA.R@5,Average.R@2,Average.R@5
+IRCoT + BM25 (Default),34 . 2,44 . 7,61 . 2,75 . 6,65 . 6,79 . 0,53 . 7,66 . 4
+IRCoT + Contriever,39 . 1,52 . 2,51 . 6,63 . 8,65 . 9,81 . 6,52 . 2,65 . 9
+IRCoT + ColBERTv2,41 . 7,53 . 7,64 . 1,74 . 4,67 . 9,82 . 0,57 . 9,70 . 0
+IRCoT + HippoRAG,43 . 9,56 . 6,75 . 3,93 . 4,65 . 8,82 . 3,66 . 2,77 . 1
+IRCoT + MS-RAG (Contriever),45 . 7,57 . 6,80 . 4,93 . 8,78 . 4,88 . 7,68 . 2,79 . 3
+IRCoT + MS-RAG (BGE-M3),47 . 8,59 . 2,85 . 0,95 . 2,82 . 7,91 . 2,71 . 8,81 . 9

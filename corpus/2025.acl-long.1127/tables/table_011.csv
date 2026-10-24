@@ -1,0 +1,7 @@
+Method,Input,Img. Backbone,Anchor,NC Ò,DAC Ò,TTC Ò,Comf. Ò,EP Ò,PDMS Ò
+UniAD,Camera,ResNet-34,0,97.8,91.9,92.9,100,78.8,83.4
+PARA-Drive,Camera,ResNet-34,0,97.9,92.4,93.0,99.8,79.3,84.0
+LTF,Camera,ResNet-34,0,97.4,92.8,92.4,100,79.0,83.8
+Transfuser,C&L,ResNet-34,0,97.7,92.8,92.8,100,79.2,84.0
+DRAMA,C&L,ResNet-34,0,98.0,93.1,94.8,100,80.1,85.5
+DRAE (ours),C&L,ResNet-34,20,98.4,96.2,94.9,100,82.5,88.0

@@ -1,0 +1,7 @@
+Method.,Generator Model.,Gen. FT.,Ret. FT.,E-VQA.,InfoSeek.Unseen-Q,InfoSeek.Unseen-E,InfoSeek.Overall
+RoRA-VLM Wiki-LLaVA LLM-RA EchoSight mR 2 AG,LLaVA-1.5-7B LLaVA-1.5-7B BLIP2-Flan-T5XL Mistral-7B | LLaMA3-8B LLaVA-1.5-7B,! ! ! % ! !,% % ! ! ! !,20.29 21.8 - 41.8 - 35.5,27.34 30.1 26.12 - 40.6 40.4,25.10 27.8 20.90 - 39.8 39.8,- 28.9 23.14 31.3 40.2 40.1
+OMGM(ours),InternVL-2.5-8B LLaMA3-8B,% %,!,48.72 49.94,35.26,35.1 33.61,
+ReflectiVA,LLaVA-MORE-8B,,,,,,
+,,,!,,37.16,,36.1
+,,,,,,,34.42
+,LLaVA-1.5-7B,!,!,50.17,43.46,43.53,43.49

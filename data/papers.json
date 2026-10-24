@@ -1,0 +1,110 @@
+[
+  {
+    "paper_id": "2025.emnlp-main.1040",
+    "conf": "EMNLP2025",
+    "title": "Table-R1: Inference-Time Scaling for Table Reasoning",
+    "authors": "Zheyuan Yang, Lyuhao Chen, Arman Cohan, Yilun Zhao (Yale NLP Lab / CMU)",
+    "nicknames": ["the Table-R1 paper", "that Yale table-reasoning paper"]
+  },
+  {
+    "paper_id": "2025.emnlp-main.125",
+    "conf": "EMNLP2025",
+    "title": "REARANK: Reasoning Re-ranking Agent via Reinforcement Learning",
+    "authors": "Le Zhang, Bo Wang, Xipeng Qiu, Siva Reddy, Aishwarya Agrawal (Mila / Fudan / McGill)",
+    "nicknames": ["the REARANK paper", "that RL reranking paper"]
+  },
+  {
+    "paper_id": "2025.acl-long.819",
+    "conf": "ACL2025",
+    "title": "RetroLLM: Empowering Large Language Models to Retrieve Fine-grained Evidence within Generation",
+    "authors": "Xiaoxi Li, Jiajie Jin, Yujia Zhou, Yongkang Wu, Zhonghua Li, Qi Ye, Zhicheng Dou (Renmin University of China / Tsinghua / Huawei)",
+    "nicknames": ["RetroLLM", "that FM-Index retrieval-generation paper"]
+  },
+  {
+    "paper_id": "2025.acl-long.929",
+    "conf": "ACL2025",
+    "title": "KiRAG: Knowledge-Driven Iterative Retriever for Enhancing Retrieval-Augmented Generation",
+    "authors": "Jinyuan Fang, Zaiqiao Meng (University of Glasgow)",
+    "nicknames": ["KiRAG", "that knowledge-triple iterative retrieval paper"]
+  },
+  {
+    "paper_id": "2025.acl-long.1198",
+    "conf": "ACL2025",
+    "title": "OMGM: Orchestrate Multiple Granularities and Modalities for Efficient Multimodal Retrieval",
+    "authors": "Wei Yang, Jingjing Fu, Rui Wang, Jinyu Wang, Lei Song, Jiang Bian (Microsoft)",
+    "nicknames": ["OMGM", "that Microsoft coarse-to-fine multimodal RAG paper"]
+  },
+  {
+    "paper_id": "2025.acl-long.366",
+    "conf": "ACL2025",
+    "title": "How to Train Long-Context Language Models (Effectively)",
+    "authors": "Tianyu Gao, Alexander Wettig, Howard Yen, Danqi Chen (Princeton)",
+    "nicknames": ["the ProLong paper", "Danqi Chen's long-context training paper"]
+  },
+  {
+    "paper_id": "2025.acl-long.1072",
+    "conf": "ACL2025",
+    "title": "COIR: A Comprehensive Benchmark for Code Information Retrieval Models",
+    "authors": "Xiangyang Li, Kuicai Dong, Yi Quan Lee, Wei Xia, Hao Zhang, Xinyi Dai, Yasheng Wang, Ruiming Tang (Huawei Noah's Ark Lab)",
+    "nicknames": ["COIR", "that code retrieval benchmark paper"]
+  },
+  {
+    "paper_id": "2025.acl-long.1528",
+    "conf": "ACL2025",
+    "title": "REAL-MM-RAG: A Real-World Multi-Modal Retrieval Benchmark",
+    "authors": "Navve Wasserman, Roi Pony, Oshri Naparstek, Adi Raz Goldfarb, Eli Schwartz, Udi Barzelay, Leonid Karlinsky (IBM Research Israel)",
+    "nicknames": ["REAL-MM-RAG", "that IBM multimodal retrieval benchmark paper"]
+  },
+  {
+    "paper_id": "2025.acl-long.1127",
+    "conf": "ACL2025",
+    "title": "DRAE: Dynamic Retrieval-Augmented Expert Networks for Lifelong Learning and Task Adaptation in Robotics",
+    "authors": "Yayu Long, Kewei Chen, Long Jin, Mingsheng Shang (Chinese Academy of Sciences)",
+    "nicknames": ["DRAE", "that MoE-plus-RAG robotics paper"]
+  },
+  {
+    "paper_id": "2025.acl-long.311",
+    "conf": "ACL2025",
+    "title": "NeuSym-RAG: Hybrid Neural Symbolic Retrieval with Multiview Structuring for PDF Question Answering",
+    "authors": "Ruisheng Cao, Hanchong Zhang, Tiancheng Huang, et al. (Shanghai Jiao Tong University)",
+    "nicknames": ["NeuSym-RAG", "that hybrid neural-symbolic PDF QA paper"]
+  },
+  {
+    "paper_id": "2025.acl-long.1089",
+    "conf": "ACL2025",
+    "title": "Mitigating Lost-in-Retrieval Problems in Retrieval Augmented Multi-Hop Question Answering",
+    "authors": "Rongzhi Zhu, Xiangyu Liu, Zequn Sun, Yiwei Wang, Wei Hu (Nanjing University)",
+    "nicknames": ["the lost-in-retrieval paper", "ChainRAG"]
+  },
+  {
+    "paper_id": "2025.emnlp-main.1151",
+    "conf": "EMNLP2025",
+    "title": "MS-RAG: Simple and Effective Multi-Semantic Retrieval-Augmented Generation",
+    "authors": "Xiaozhou You, Yahui Luo (Ant Group)",
+    "nicknames": ["MS-RAG", "that Ant Group multi-semantic RAG paper"]
+  },
+  {
+    "paper_id": "2025.acl-long.1478",
+    "conf": "ACL2025",
+    "title": "M3GQA: A Multi-Entity Multi-Hop Multi-Setting Graph Question Answering Benchmark",
+    "authors": "Boci Peng, Yongchao Liu, Xiaohe Bo, et al. (Peking University / Ant Group)",
+    "nicknames": ["M3GQA", "that multi-entity GraphRAG benchmark paper"],
+    "role": "distractor (no gold question targets this paper directly)"
+  },
+  {
+    "paper_id": "2025.emnlp-main.1063",
+    "conf": "EMNLP2025",
+    "title": "Attention-guided Self-reflection for Zero-shot Hallucination Detection in Large Language Models",
+    "authors": "Qiang Liu, Xinlong Chen, Yue Ding, Bowen Song, et al. (CASIA / Ant Group)",
+    "nicknames": ["AGSER", "that attention-guided hallucination detection paper"],
+    "role": "distractor (no gold question targets this paper directly)"
+  },
+  {
+    "paper_id": "2025.acl-long.1539",
+    "conf": "ACL2025",
+    "title": "DualRAG: A Dual-Process Approach to Integrate Reasoning and Retrieval for Multi-Hop Question Answering",
+    "authors": "Rong Cheng, Jinyi Liu, Yan Zheng, et al. (Tianjin University)",
+    "nicknames": ["DualRAG", "that dual-process reasoning-and-retrieval paper"],
+    "role": "distractor (no gold question targets this paper directly)"
+  }
+]

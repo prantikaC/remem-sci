@@ -1,0 +1,4 @@
+Category,Question,Answer Format
+single,"On the ALFWorld dataset experiments, how much did the success rate improve when the authors used their method compared to the original baseline model?",Your answer should be a floating-point number with one decimal place.
+multiple,"I would like to reproduce the experiments of KnowGPT, could you please provide me with the websites of the datasets applied in the experiment?","Your answer should be a Python list of 3 strings, the websites. Note that you should provide the original URL as given in the papers that pro- posed the datasets."
+retrieval,Find the NLP paper that focuses on dialogue genera- tion and introduces advancements in the augmentation of one-to-many or one-to-one dialogue data by con- ducting augmentation within the semantic space.,Your answer should be the title of the paper WITHOUT ANY EXPLANATION.

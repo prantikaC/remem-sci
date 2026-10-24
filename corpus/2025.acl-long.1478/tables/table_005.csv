@@ -1,0 +1,10 @@
+Baselines,Single-hop Setting.Recall,Single-hop Setting.Acc,Single-hop Setting.Num,Multi-hop Setting.Recall,Multi-hop Setting.Acc,Multi-hop Setting.Num,Set Setting.Recall,Set Setting.Acc,Set Setting.Num,Aggregation Setting.Recall,Aggregation Setting.Acc,Aggregation Setting.Num,Editing Setting.Recall,Editing Setting.Acc,Editing Setting.Num
+Traditional Methods,Traditional Methods,Traditional Methods,Traditional Methods,Traditional Methods,Traditional Methods,Traditional Methods,Traditional Methods,Traditional Methods,Traditional Methods,Traditional Methods,Traditional Methods,Traditional Methods,Traditional Methods,Traditional Methods,Traditional Methods
+SP,92.00,95.03,51.31,61.86,10.72,34.26,40.78,15.25,43.95,45.53,55.13,52.60,60.59,8.63,32.28
+Sparse,41.60,79.27,100.00,32.68,24.01,100.00,26.90,39.00,100.00,23.92,59.24,100.00,31.84,19.42,100.00
+Dense,67.73,88.55,100.00,51.34,66.43,100.00,46.50,53.75,100.00,45.53,82.99,100.00,51.35,59.71,100.00
+GraphRAG Methods,GraphRAG Methods,GraphRAG Methods,GraphRAG Methods,GraphRAG Methods,GraphRAG Methods,GraphRAG Methods,GraphRAG Methods,GraphRAG Methods,GraphRAG Methods,GraphRAG Methods,GraphRAG Methods,GraphRAG Methods,GraphRAG Methods,GraphRAG Methods,GraphRAG Methods
+ToG,41.87,74.00,4.89,32.82,16.00,5.64,12.60,4.00,5.98,8.81,38.00,5.76,34.92,24.00,5.60
+RoG,38.17,62.42,58.06,13.36,24.01,41.33,12.31,30.75,77.47,12.07,56.89,76.50,14.56,23.38,41.71
+RoG-SFT,43.83,70.41,19.26,12.11,25.87,48.10,13.10,34.50,124.64,9.56,48.68,58.32,11.07,31.65,45.66
+G-Retriever,50.15,82.94,208.53,41.72,75.76,236.10,29.44,60.50,207.25,31.88,79.47,199.60,40.43,67.99,226.91

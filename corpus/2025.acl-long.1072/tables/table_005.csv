@@ -1,0 +1,5 @@
+Model (input #tokens),Code FB-MT,Code TO-DL,APPS,Stack OF-QA
+GTE (512),28.48,28.80,3.24,62.71
+GTE (4k),51.32,27.33,5.08,78.63
+BGE-M3 (512),33.46,31.16,7.37,61.04
+BGE-M3 (4k),27.49,32.75,6.80,56.53

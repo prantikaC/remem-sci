@@ -1,0 +1,6 @@
+Model.,Retriever.,Aligner.,Constructor.,HotPotQA.R @ 3,HotPotQA.R @ 5,HotPotQA.F1,2Wiki.R @ 3,2Wiki.R @ 5,2Wiki.F1,MuSiQue.R @ 3,MuSiQue.R @ 5,MuSiQue.F1
+KiRAG,✓,✓ (trained),✓,80.32 ∗,84.08 ∗,59.76 ∗,77.76 ∗,85.32 ∗,50.57 ∗,54.53 ∗,61.16 ∗,30.00 ∗
+KiRAG w/o Retriever,✗,✓ (trained),✓,74.09 †,78.03 †,57.07 †,77.29 †,83.65 †,48.76 †,53.93 †,60.68 †,27.14 †
+KiRAG w/o Aligner,✓,✗,✓,73.34 †,75.79 †,53.47 †,67.66 †,70.73 †,39.06 †,45.60 †,49.62 †,21.80 †
+KiRAG w/o Constructor,✓,✓ (trained),✗,74.96 †,79.51 †,55.67 †,72.64 †,80.89 †,45.69 †,46.98 †,55.12 †,23.71 †
+KiRAG w/o Training,✓,✓ (w/o training),✓,76.35 †,81.56 †,59.03 †,75.37 †,82.50 †,48.33 †,51.33 †,58.66 †,28.08 †

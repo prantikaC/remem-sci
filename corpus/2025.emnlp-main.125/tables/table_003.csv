@@ -1,0 +1,8 @@
+Model Variant,TREC-DL,BEIR,BRIGHT
+Qwen2.5-7B (baseline),65.5,50.1,15.0
++Reasoning Prompt,65.9,51.4,15.4
+wo/ Filter nDCG@10 < 0.1,71.3,53.6,16.9
+w/ r rank = S rerank,70.9,53.2,16.7
+w/ r rank = S rerank - S init,71.5,54.0,17.2
+w/ direct SFT,66.7,50.7,14.7
+REARANK-7B (full model),72.0,54.6,17.7

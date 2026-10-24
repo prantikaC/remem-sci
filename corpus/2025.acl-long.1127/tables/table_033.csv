@@ -1,0 +1,2 @@
+Method.,Validation Seen.w/o human.NE Ó,Validation Seen.w/o human.SR Ò,Validation Seen.w/ human.NE Ó,Validation Seen.w/ human.SR Ò,Validation Seen.Diff.NE,Validation Seen.Diff.SR,Validation Unseen.w/o human.NE Ó,Validation Unseen.w/o human.SR Ò,Validation Unseen.w/ human.NE Ó,Validation Unseen.w/ human.SR Ò,Validation Unseen.Diff.NE,Validation Unseen.Diff.SR
+DRAE (ours),5.30,0.52,5.10,0.58,-3.8%,+11.5%,6.00,0.45,5.75,0.50,-4.2%,+11.1%

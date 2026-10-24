@@ -1,0 +1,5 @@
+,Correctness,Diversity,Comprehension,Overall,Inference time
+GraphRAG,27.7%,38.8%,45.7%,38.2%,4.12s
+MS-RAG (ours),72.3%,61.2%,54.3%,61.8%,0.76s
+HippoRAG,38.8%,41.6%,44.3%,40.6%,0.88s
+MS-RAG (ours),61.2%,58.4%,55.7%,58.4%,0.76s

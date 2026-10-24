@@ -1,0 +1,3 @@
+Models,LLFF,NeRF Synthetic,Shiny-6,Tanks-and-Temples
+GNT-MOVE,0.869,0.940,0.932,0.640
+DRAE (ours),0.880,0.950,0.945,0.675

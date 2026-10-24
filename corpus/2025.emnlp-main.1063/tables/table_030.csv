@@ -1,0 +1,5 @@
+0,1
+Query,"Who is the author of the book Secrets of St. John's Wort: A Lynn Sonberg Book, what year was it published? Larry Katzenstein, in 1998."
+Correct Answer Original Answer,"Lynn Sonberg, in 2003."
+Attentive Query Answer,". John's Wort: A Lynn Sonberg Book,? 2001."
+Non-attentive Query Answer,"Who is the author of the book Secrets of St what year was it published Mary's Hospital, in 2003."

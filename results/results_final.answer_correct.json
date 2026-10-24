@@ -1,0 +1,352 @@
+{
+  "summary": {
+    "1": {
+      "correct": 1,
+      "n": 4
+    },
+    "2": {
+      "correct": 1,
+      "n": 4
+    },
+    "3": {
+      "correct": 2,
+      "n": 4
+    },
+    "4": {
+      "correct": 1,
+      "n": 4
+    },
+    "5": {
+      "correct": 1,
+      "n": 4
+    },
+    "6": {
+      "correct": 1,
+      "n": 4
+    },
+    "cases_1_4": {
+      "correct": 5,
+      "n": 16
+    },
+    "all": {
+      "correct": 7,
+      "n": 24
+    }
+  },
+  "items": [
+    {
+      "id": "q27",
+      "case": 1,
+      "grounding": "fail",
+      "cited_paper_ids": [
+        "2025.acl-long.1198"
+      ],
+      "citation_ok": true,
+      "auto_correct": false,
+      "correct": false,
+      "source": "auto",
+      "rationale": null
+    },
+    {
+      "id": "q42",
+      "case": 1,
+      "grounding": "pass",
+      "cited_paper_ids": [
+        "2025.acl-long.819"
+      ],
+      "citation_ok": true,
+      "auto_correct": true,
+      "correct": true,
+      "source": "auto",
+      "rationale": null
+    },
+    {
+      "id": "q44",
+      "case": 1,
+      "grounding": "fail",
+      "cited_paper_ids": [
+        "2025.emnlp-main.1040"
+      ],
+      "citation_ok": true,
+      "auto_correct": false,
+      "correct": false,
+      "source": "auto",
+      "rationale": null
+    },
+    {
+      "id": "q45",
+      "case": 1,
+      "grounding": "fail",
+      "cited_paper_ids": [
+        "2025.emnlp-main.125"
+      ],
+      "citation_ok": true,
+      "auto_correct": false,
+      "correct": false,
+      "source": "auto",
+      "rationale": null
+    },
+    {
+      "id": "q28",
+      "case": 2,
+      "grounding": "pass",
+      "cited_paper_ids": [
+        "2025.acl-long.819"
+      ],
+      "citation_ok": true,
+      "auto_correct": true,
+      "correct": true,
+      "source": "auto",
+      "rationale": null
+    },
+    {
+      "id": "q04",
+      "case": 2,
+      "grounding": "fail",
+      "cited_paper_ids": [
+        "2025.acl-long.929"
+      ],
+      "citation_ok": true,
+      "auto_correct": false,
+      "correct": false,
+      "source": "auto",
+      "rationale": null
+    },
+    {
+      "id": "q05",
+      "case": 2,
+      "grounding": "fail",
+      "cited_paper_ids": [
+        "2025.acl-long.1198"
+      ],
+      "citation_ok": true,
+      "auto_correct": false,
+      "correct": false,
+      "source": "auto",
+      "rationale": null
+    },
+    {
+      "id": "q47",
+      "case": 2,
+      "grounding": "fail",
+      "cited_paper_ids": [
+        "2025.emnlp-main.1151"
+      ],
+      "citation_ok": true,
+      "auto_correct": false,
+      "correct": false,
+      "source": "auto",
+      "rationale": null
+    },
+    {
+      "id": "q17",
+      "case": 3,
+      "grounding": "pass",
+      "cited_paper_ids": [
+        "2025.acl-long.1539"
+      ],
+      "citation_ok": true,
+      "auto_correct": true,
+      "correct": true,
+      "source": "auto",
+      "rationale": null
+    },
+    {
+      "id": "q24",
+      "case": 3,
+      "grounding": "partial",
+      "cited_paper_ids": [
+        "2025.acl-long.1072"
+      ],
+      "citation_ok": true,
+      "auto_correct": false,
+      "correct": false,
+      "source": "auto",
+      "rationale": null
+    },
+    {
+      "id": "q25",
+      "case": 3,
+      "grounding": "pass",
+      "cited_paper_ids": [
+        "2025.acl-long.929"
+      ],
+      "citation_ok": true,
+      "auto_correct": true,
+      "correct": true,
+      "source": "auto",
+      "rationale": null
+    },
+    {
+      "id": "q10",
+      "case": 3,
+      "grounding": "fail",
+      "cited_paper_ids": [
+        "2025.acl-long.311"
+      ],
+      "citation_ok": true,
+      "auto_correct": false,
+      "correct": false,
+      "source": "auto",
+      "rationale": null
+    },
+    {
+      "id": "q01",
+      "case": 4,
+      "grounding": "fail",
+      "cited_paper_ids": [
+        "2025.acl-long.1528"
+      ],
+      "citation_ok": false,
+      "auto_correct": false,
+      "correct": false,
+      "source": "auto",
+      "rationale": null
+    },
+    {
+      "id": "q02",
+      "case": 4,
+      "grounding": "fail",
+      "cited_paper_ids": [
+        "2025.emnlp-main.125"
+      ],
+      "citation_ok": true,
+      "auto_correct": false,
+      "correct": false,
+      "source": "auto",
+      "rationale": null
+    },
+    {
+      "id": "q03",
+      "case": 4,
+      "grounding": "partial",
+      "cited_paper_ids": [
+        "2025.acl-long.819"
+      ],
+      "citation_ok": true,
+      "auto_correct": false,
+      "correct": false,
+      "source": "auto",
+      "rationale": null
+    },
+    {
+      "id": "q16",
+      "case": 4,
+      "grounding": "pass",
+      "cited_paper_ids": [
+        "2025.acl-long.929"
+      ],
+      "citation_ok": true,
+      "auto_correct": true,
+      "correct": true,
+      "source": "auto",
+      "rationale": null
+    },
+    {
+      "id": "q13",
+      "case": 5,
+      "grounding": "partial",
+      "cited_paper_ids": [
+        "2025.acl-long.1089"
+      ],
+      "citation_ok": false,
+      "auto_correct": false,
+      "correct": false,
+      "source": "auto",
+      "rationale": null
+    },
+    {
+      "id": "q14",
+      "case": 5,
+      "grounding": "pass",
+      "cited_paper_ids": [
+        "2025.acl-long.1198",
+        "2025.acl-long.1528"
+      ],
+      "citation_ok": true,
+      "auto_correct": true,
+      "correct": false,
+      "source": "manual",
+      "rationale": "Override of the automatic rule. Grounding scored 'pass' only because 'REAL-MM-RAG' appears in the appended Sources block; the answer body names the benchmark 'ViDoRe' (a different benchmark listed in REAL-MM-RAG's related-work table), which is factually wrong."
+    },
+    {
+      "id": "q15",
+      "case": 5,
+      "grounding": "pass",
+      "cited_paper_ids": [
+        "2025.acl-long.1072",
+        "2025.acl-long.1478"
+      ],
+      "citation_ok": true,
+      "auto_correct": true,
+      "correct": true,
+      "source": "manual",
+      "rationale": "Confirms the automatic rule. The names COIR/M3GQA appear only in the Sources block, but the question asks which paper is the code one vs. the graph one and how many tasks/settings each defines: the body correctly assigns six settings to the graph benchmark and eight sub-tasks to the code benchmark, states nothing false (it says the main-task count is not stated rather than guessing), and both gold papers are cited."
+    },
+    {
+      "id": "q29",
+      "case": 5,
+      "grounding": "partial",
+      "cited_paper_ids": [
+        "2025.emnlp-main.125"
+      ],
+      "citation_ok": false,
+      "auto_correct": false,
+      "correct": false,
+      "source": "auto",
+      "rationale": null
+    },
+    {
+      "id": "q33",
+      "case": 6,
+      "grounding": "partial",
+      "cited_paper_ids": [
+        "2025.acl-long.819"
+      ],
+      "citation_ok": true,
+      "auto_correct": null,
+      "correct": false,
+      "source": "manual",
+      "rationale": "Case 6. States the true size (20.7 GB vs 60.1 GB) but then concludes the researcher's ~40 GB claim 'is supported by the evidence' -- validates the false premise instead of flagging the discrepancy."
+    },
+    {
+      "id": "q34",
+      "case": 6,
+      "grounding": "partial",
+      "cited_paper_ids": [
+        "2025.emnlp-main.1151"
+      ],
+      "citation_ok": false,
+      "auto_correct": null,
+      "correct": false,
+      "source": "manual",
+      "rationale": "Case 6. Confirms the false premise outright ('This aligns with the researcher's recollection'); the chunk/relation/entity-level KG+dense indexing belongs to MS-RAG, not the knowledge-triple paper (KiRAG)."
+    },
+    {
+      "id": "q35",
+      "case": 6,
+      "grounding": "fail",
+      "cited_paper_ids": [
+        "2025.acl-long.1198"
+      ],
+      "citation_ok": true,
+      "auto_correct": null,
+      "correct": true,
+      "source": "manual",
+      "rationale": "Case 6. Does not confirm the false claim that combining image and text hurt retrieval; states the claim is not supported by the evidence. Saying the claim/answer is not supported counts as a correct response to a false premise."
+    },
+    {
+      "id": "q36",
+      "case": 6,
+      "grounding": "partial",
+      "cited_paper_ids": [
+        "2025.acl-long.311"
+      ],
+      "citation_ok": true,
+      "auto_correct": null,
+      "correct": false,
+      "source": "manual",
+      "rationale": "Case 6. Accepts the false attribution, describing the relational-database + vector-store PDF QA system as 'the Yale table-reasoning group's paper'; it is NeuSym-RAG (Shanghai Jiao Tong University), not Table-R1."
+    }
+  ]
+}

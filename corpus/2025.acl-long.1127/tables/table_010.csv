@@ -1,0 +1,4 @@
+Method.,DexArt.Toilet,DexArt.Faucet,DexArt.Laptop,Adroit.Avg.,Adroit.Door,Adroit.Hammer,Adroit.Pen,Avg..
+TT w/ 1Layer,0.73,0.35,0.85,0.64,0.63,0.92,0.54,0.70
+TCD,0.72,0.33,0.80,0.62,0.63,0.83,0.42,0.63
+DRAE (ours),0.76,0.47,0.85,0.69,0.75,0.98,0.59,0.76

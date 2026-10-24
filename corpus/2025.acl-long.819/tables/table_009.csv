@@ -1,0 +1,11 @@
+Base Model.,In-domain Datasets.NQ.Acc,In-domain Datasets.NQ.F1,In-domain Datasets.NQ.Tok,In-domain Datasets.TriviaQA.Acc,In-domain Datasets.TriviaQA.F1,In-domain Datasets.TriviaQA.Tok,In-domain Datasets.HotpotQA.Acc,In-domain Datasets.HotpotQA.F1,In-domain Datasets.HotpotQA.Tok,Out-of-domain Datasets.PopQA.Acc,Out-of-domain Datasets.PopQA.F1,Out-of-domain Datasets.PopQA.Tok,Out-of-domain Datasets.2WIKI.Acc,Out-of-domain Datasets.2WIKI.F1,Out-of-domain Datasets.2WIKI.Tok
+Llama3 Series,,,,,,,,,,,,,,,
+Llama3.2-1B,54.4,35.8,260,64.4,52.9,288,58.8,33.5,573,63.3,32.9,344,44.5,28.5,583
+Llama3.2-3B,58.9,45.4,278,67.8,62.1,267,61.3,37.8,609,64.7,40.4,338,47.3,32.2,632
+Llama3-8B,59.2,46.4,306,72.7,69.3,256,62.2,47.4,575,65.2,41.4,338,48.7,36.1,668
+Qwen2.5 Series,,,,,,,,,,,,,,,
+Qwen2.5-1.5B,50.1,34.3,200,57.2,51.2,170,57.0,32.6,539,59.5,32.6,286,47.5,26.3,650
+Qwen2.5-3B,52.1,36.8,236,61.4,56.3,212,60.6,34.1,628,64.0,34.8,336,48.1,30.6,694
+Qwen2.5-7B,54.9,42.3,230,64.5,62.4,196,61.9,42.0,549,62.8,37.1,313,48.7,32.5,634
+Qwen2.5-14B,58.6,50.6,225,72.8,69.5,186,62.6,45.9,568,64.3,40.8,343,51.3,36.9,687
+Mistral Series Mistral-7B,61.6,49.8,302,74.3,72.8,287,61.9,47.2,607,65.7,43.0,355,48.9,36.2,661

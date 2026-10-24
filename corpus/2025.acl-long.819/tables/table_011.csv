@@ -1,0 +1,4 @@
+Method,Index Method,Total Storage,Building Time
+Plain Text,-,12.7 GB,-
+E5-Base,Dense Emb.,60.1 GB,7.57 h
+RetroLLM,FM-Index,20.7 GB,5.39 h

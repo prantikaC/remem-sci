@@ -1,0 +1,12 @@
+Model.,#Train.#Train,In-Domain.DL19,In-Domain.DL20,Out-of-Domain.Covid,Out-of-Domain.NFCorpus,Out-of-Domain.DBPedia,Out-of-Domain.SciFact,Out-of-Domain.Signal,Out-of-Domain.News,Out-of-Domain.Robust04,Out-of-Domain.BEIR (Avg)
+BM25†,-,50.58,47.96,59.47,30.75,31.80,67.89,33.05,39.52,40.70,43.31
+RankQwen 2.5 -7B,zero-shot,68.25,62.73,77.74,37.40,39.83,70.83,31.73,43.24,49.95,50.10
+RankGPT 3.5,zero-shot,65.80,62.91,76.67,35.62,44.47,70.43,32.10,48.85,50.62,51.25
+RankGPT 4,zero-shot,75.59,70.56,85.51,38.47,47.12,74.95,34.40,52.89,57.55,55.84
+‡ RankZephyr-7B,105K SFT,73.90,70.60,83.54,38.38,44.34,75.18,31.44,52.35,54.19,54.20
+Reasoning Language Model,Reasoning Language Model,Reasoning Language Model,Reasoning Language Model,Reasoning Language Model,Reasoning Language Model,Reasoning Language Model,Reasoning Language Model,Reasoning Language Model,Reasoning Language Model,Reasoning Language Model,Reasoning Language Model
+RankQwen 3 -32B,zero-shot,73.13,70.00,83.86,36.28,45.44,71.78,32.06,51.73,57.27,54.06
+RankQwen 3 -235B,zero-shot,71.94,69.37,83.68,35.64,41.33,63.30,32.53,50.79,58.16,52.20
+Rank-R1-7B,72k RL,72.70,68.50,83.12,35.97,43.43,74.47,32.16,48.43,55.17,53.25
+REARANK-7B,179 RL,74.16,70.00,81.28,35.20,45.23,75.02,36.00,51.88,57.49,54.59
+∆ over baseline*,,+5.91,+7.27,+3.54,-2.20,+5.40,+4.19,+4.27,+8.64,+7.54,+4.49

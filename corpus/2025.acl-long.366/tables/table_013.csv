@@ -1,0 +1,12 @@
+,> 4K,> 8K,> 16K,> 32K
+FineWeb,1.4,0.3,0.1,0.0
+FineWeb-Edu,2.8,0.8,0.2,0.0
+Wikipedia,1.6,0.4,0.0,0.0
+Tulu-v2,0.0,0.0,0.0,0.0
+StackExchange,0.6,0.1,0.0,0.0
+ArXiv,85.7,64.0,30.3,7.6
+OpenWebMath,11.1,4.3,1.2,0.3
+ShortMix,10.9,7.2,3.2,0.8
+SlimPajama,11.3,7.4,4.9,3.2
+FineWeb-Edu,2.8,0.8,0.2,0.0
+DCLM-Baseline,4.9,1.7,0.4,0.1

@@ -1,0 +1,7 @@
+Model,RAG Method,# Interaction(s),# Prompt Token(s),# Completion Token(s),Time (s),Cost ($)
+Llama-3.3-70B-Instruct,NeuSym-RAG,4.45,36521,832,40,-
+,Iterative Sym-RAG,5.16,43548,2730,105,-
+Qwen2.5-72B-Instruct,Iterative Neu-RAG,4.19,48600,2395,94,-
+Qwen2.5-72B-Instruct,NeuSym-RAG,5.26,58262,1987,83,-
+GPT-4o-mini,NeuSym-RAG,3.59,29306,518,20,0.0059
+GPT-4V,NeuSym-RAG,3.61,54657,1098,17,0.1464

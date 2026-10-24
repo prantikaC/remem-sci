@@ -1,0 +1,8 @@
+Task,Dataset,# Train,# Test
+Single-hop QA,NQ,"79,168","3,610"
+Single-hop QA,TriviaQA,"78,785","11,313"
+Single-hop QA,PopQA,/,"14,267"
+Multi-hop QA,HotpotQA,"90,447","7,405"
+Multi-hop QA,2WIKI,/,"12,576"
+Retrieval Corpus,# Passages,# Documents,# Documents
+Wikipedia,"21,015,324",,"3,232,907"

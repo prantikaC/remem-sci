@@ -1,0 +1,27 @@
+Model..Proprietary Models,In-domain.FF-TQA.FeTaQA TabFact WTQ HiTab ToTTo QTSum R.W. InfoTabs PHT Feverous TMCQ TMWP FinQA.Proprietary Models,In-domain.TFV.FeTaQA TabFact WTQ HiTab ToTTo QTSum R.W. InfoTabs PHT Feverous TMCQ TMWP FinQA.Proprietary Models,In-domain.TQA.FeTaQA TabFact WTQ HiTab ToTTo QTSum R.W. InfoTabs PHT Feverous TMCQ TMWP FinQA.Proprietary Models,In-domain.TQA.FeTaQA TabFact WTQ HiTab ToTTo QTSum R.W. InfoTabs PHT Feverous TMCQ TMWP FinQA.Proprietary Models,Performance Out-of-domain.FF-TQA.FeTaQA TabFact WTQ HiTab ToTTo QTSum R.W. InfoTabs PHT Feverous TMCQ TMWP FinQA.Proprietary Models,Performance Out-of-domain.FF-TQA.FeTaQA TabFact WTQ HiTab ToTTo QTSum R.W. InfoTabs PHT Feverous TMCQ TMWP FinQA.Proprietary Models,Performance Out-of-domain.FF-TQA.FeTaQA TabFact WTQ HiTab ToTTo QTSum R.W. InfoTabs PHT Feverous TMCQ TMWP FinQA.Proprietary Models,Performance Out-of-domain.TFV.FeTaQA TabFact WTQ HiTab ToTTo QTSum R.W. InfoTabs PHT Feverous TMCQ TMWP FinQA.Proprietary Models,Performance Out-of-domain.TFV.FeTaQA TabFact WTQ HiTab ToTTo QTSum R.W. InfoTabs PHT Feverous TMCQ TMWP FinQA.Proprietary Models,Performance Out-of-domain.TFV.FeTaQA TabFact WTQ HiTab ToTTo QTSum R.W. InfoTabs PHT Feverous TMCQ TMWP FinQA.Proprietary Models,Performance Out-of-domain.TQA.FeTaQA TabFact WTQ HiTab ToTTo QTSum R.W. InfoTabs PHT Feverous TMCQ TMWP FinQA.Proprietary Models,Performance Out-of-domain.TQA.FeTaQA TabFact WTQ HiTab ToTTo QTSum R.W. InfoTabs PHT Feverous TMCQ TMWP FinQA.Proprietary Models,Performance Out-of-domain.TQA.FeTaQA TabFact WTQ HiTab ToTTo QTSum R.W. InfoTabs PHT Feverous TMCQ TMWP FinQA.Proprietary Models
+GPT-4.1,25.1,86.5,68.0,84.7,20.4,45.7,21.0,90.5,88.2,87.7,92.0,77.0,74.0
+GPT-4.1 mini,27.2,84.9,69.5,80.7,18.8,46.4,20.0,88.9,86.8,86.1,92.9,86.2,71.4
+Open-source Models,Open-source Models,Open-source Models,Open-source Models,Open-source Models,Open-source Models,Open-source Models,Open-source Models,Open-source Models,Open-source Models,Open-source Models,Open-source Models,Open-source Models,Open-source Models
+LLMs,,,,,,,,,,,,,
+Qwen2.5-7B,21.0,72.2,54.8,61.8,16.0,39.5,19.3,78.6,70.7,74.6,87.4,85.0,66.4
+Qwen2.5-32B,21.9,90.3,77.3,79.4,17.8,41.4,20.0,90.5,86.7,79.2,92.1,95.8,77.3
+DeepSeek-V3,24.7,92.4,69.9,82.2,19.0,46.2,20.9,91.9,86.2,85.8,87.6,93.4,78.6
+Reasoning LLMs,,,,,,,,,,,,,
+DeepSeek-R1-Distill-7B,19.1,79.6,57.8,46.2,10.7,37.2,18.0,85.7,87.1,77.5,80.9,94.0,66.8
+QwQ-32B,23.8,91.5,85.4,81.6,19.4,41.9,19.6,91.0,87.8,80.1,90.7,99.4,76.2
+DeepSeek-R1,26.2,90.8,79.6,82.4,18.5,43.8,19.9,90.4,87.5,76.0,93.3,99.0,75.8
+Table-Specific LLMs,,,,,,,,,,,,,
+† TableBenchLLM (7B),3.1,27.1,38.8,-,6.2,-,-,-,-,42.3,-,-,-
+† TableLLM-13B,10.8,69.0,66.3,6.3,5.4,-,-,-,-,21.5,-,-,-
+† TableLlama (7B),39.0,82.6,35.0,64.7,20.8,-,-,-,-,73.8,-,-,-
+TableGPT2-7B,29.0,77.8,61.4,70.3,14.1,39.0,19.0,85.4,89.1,78.0,77.2,79.7,66.4
+†∗ TableGPT2-72B,32.3,85.4,71.5,75.6,22.7,-,-,-,-,76.8,-,-,-
+Table-R1 (Ours),Table-R1 (Ours),Table-R1 (Ours),Table-R1 (Ours),Table-R1 (Ours),Table-R1 (Ours),Table-R1 (Ours),Table-R1 (Ours),Table-R1 (Ours),Table-R1 (Ours),Table-R1 (Ours),Table-R1 (Ours),Table-R1 (Ours),Table-R1 (Ours)
+Llama-3.1 Series,,,,,,,,,,,,,
+Llama-3.1-8B-Instruct,21.7,74.1,52.3,58.2,16.5,31.6,18.1,84.1,82.5,78.3,49.5,72.0,57.1
+Table-R1-SFT,26.0,91.1,83.8,81.8,13.7,36.6,16.6,89.8,85.8,79.4,90.8,89.0,64.3
+Table-R1-Zero,32.7,87.6,81.2,81.4,22.3,30.2,17.7,87.9,91.6,80.2,68.6,84.6,62.3
+Qwen2.5 Series,,,,,,,,,,,,,
+Qwen2.5-7B-Instruct,21.0,72.2,54.8,61.8,16.0,39.5,19.3,78.6,70.7,74.6,87.4,85.0,66.4
+Table-R1-SFT,25.3,89.9,81.9,78.3,14.1,38.8,18.8,88.8,84.6,76.0,90.9,96.6,71.7
+Table-R1-Zero,30.6,87.6,79.8,78.1,19.8,43.1,20.0,83.7,88.0,76.2,93.0,96.4,70.8

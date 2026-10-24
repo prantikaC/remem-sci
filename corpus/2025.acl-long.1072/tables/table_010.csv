@@ -1,0 +1,2 @@
+Model,Public Model Checkpoints (Link)
+Contriever E5-base BGE-Base GTE-Base UniXcoder BGE-M3 E5-Mistral OpenAI-Ada-002 Voyage-Code-002,https://huggingface.co/facebook/contriever-msmarco https://huggingface.co/intfloat/e5-base-v2 https://huggingface.co/BAAI/bge-base-en-v1.5 https://huggingface.co/Alibaba-NLP/gte-base-en-v1.5 https://huggingface.co/microsoft/unixcoder-base https://huggingface.co/BAAI/bge-m3 https://huggingface.co/intfloat/e5-mistral-7b-instruct https://openai.com/ https://www.voyageai.com/

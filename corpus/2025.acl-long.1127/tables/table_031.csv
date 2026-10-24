@@ -1,0 +1,4 @@
+Expert Type.,Validation Seen.NE Ó,Validation Seen.TCR Ó,Validation Seen.CR Ó,Validation Seen.SR Ò,Validation Unseen.NE Ó,Validation Unseen.TCR Ó,Validation Unseen.CR Ó,Validation Unseen.SR Ò
+Optimal,3.61,0.15,0.52,0.53,5.43,0.26,0.69,0.41
+Sub-optimal,3.98,0.18,0.63,0.50,5.24,0.24,0.67,0.40
+DRAE (ours),3.50,0.13,0.52,0.56,5.05,0.21,0.72,0.46

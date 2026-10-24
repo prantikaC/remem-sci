@@ -1,0 +1,686 @@
+[
+  {
+    "id": "q27",
+    "case": 1,
+    "case_label": "Case 1: Evidence-Specific Memory (paper and evidence both reasonably well known)",
+    "query_text": "So there's this Microsoft paper on multimodal retrieval, coarse-to-fine setup -- in one of their ablation tables, I remember combining image and text together for retrieval made a huge jump over just using text alone. How big was that jump?",
+    "gold_paper_id": "2025.acl-long.1198",
+    "gold_artifact_id": "2025.acl-long.1198#table_014",
+    "gold_modality": "table",
+    "qualitative": false,
+    "reference_answer": "R@1 jumps from 25.8 (text-only query and index, T\u2192T) to 51.3 when both image and text are used for both query and index ((I,T)\u2192(I,T)) -- nearly double. (\"OMGM: Orchestrate Multiple Granularities and Modalities for Efficient Multimodal Retrieval\" -- Wei Yang, Jingjing Fu, Rui Wang, Jinyu Wang, Lei Song, Jiang Bian (Microsoft) (ACL 2025), Table 14.)",
+    "grounding_facts": [
+      {
+        "type": "number",
+        "value": 51.3
+      },
+      {
+        "type": "number",
+        "value": 25.8
+      }
+    ]
+  },
+  {
+    "id": "q42",
+    "case": 1,
+    "case_label": "Case 1: Evidence-Specific Memory (paper and evidence both reasonably well known)",
+    "query_text": "I remember the FM-Index retrieval-generation paper had a table comparing storage and build time against a standard dense-embedding approach -- theirs came out to roughly a third the size and noticeably quicker to build. What were the exact numbers?",
+    "gold_paper_id": "2025.acl-long.819",
+    "gold_artifact_id": "2025.acl-long.819#table_011",
+    "gold_modality": "table",
+    "qualitative": false,
+    "reference_answer": "RetroLLM's FM-Index takes 20.7 GB and 5.39h to build, vs. E5-Base's dense embeddings at 60.1 GB and 7.57h. (\"RetroLLM: Empowering Large Language Models to Retrieve Fine-grained Evidence within Generation\" -- Xiaoxi Li, Jiajie Jin, Yujia Zhou, Yongkang Wu, Zhonghua Li, Qi Ye, Zhicheng Dou (Renmin University of China / Tsinghua / Huawei) (ACL 2025), Table 9.)",
+    "grounding_facts": [
+      {
+        "type": "number",
+        "value": 20.7
+      },
+      {
+        "type": "number",
+        "value": 60.1
+      }
+    ]
+  },
+  {
+    "id": "q44",
+    "case": 1,
+    "case_label": "Case 1: Evidence-Specific Memory (paper and evidence both reasonably well known)",
+    "query_text": "Pretty sure it was that Yale table-reasoning paper where their RL-trained version beat the plain baseline by around 10 points on one of the table QA benchmarks. Which one, and what were the exact scores?",
+    "gold_paper_id": "2025.emnlp-main.1040",
+    "gold_artifact_id": "2025.emnlp-main.1040#table_002",
+    "gold_modality": "table",
+    "qualitative": false,
+    "reference_answer": "On FeTaQA: Table-R1-Zero (Llama-3.1 init) scores 32.7 vs. 21.7 for the plain Llama-3.1-8B-Instruct baseline -- about 11 points higher. (\"Table-R1: Inference-Time Scaling for Table Reasoning\" -- Zheyuan Yang, Lyuhao Chen, Arman Cohan, Yilun Zhao (Yale NLP Lab / CMU) (EMNLP 2025), Table 2.)",
+    "grounding_facts": [
+      {
+        "type": "number",
+        "value": 32.7
+      },
+      {
+        "type": "number",
+        "value": 21.7
+      }
+    ]
+  },
+  {
+    "id": "q45",
+    "case": 1,
+    "case_label": "Case 1: Evidence-Specific Memory (paper and evidence both reasonably well known)",
+    "query_text": "There's this RL reranking paper -- trained on a surprisingly small number of examples and still beat a solid zero-shot baseline by several points on some big retrieval benchmark. What were the exact numbers?",
+    "gold_paper_id": "2025.emnlp-main.125",
+    "gold_artifact_id": "2025.emnlp-main.125#table_001",
+    "gold_modality": "table",
+    "qualitative": false,
+    "reference_answer": "REARANK-7B trained on just 179 annotated examples gets 54.59 BEIR average, +4.49 over the RankQwen2.5-7B zero-shot baseline (50.10). (\"REARANK: Reasoning Re-ranking Agent via Reinforcement Learning\" -- Le Zhang, Bo Wang, Xipeng Qiu, Siva Reddy, Aishwarya Agrawal (Mila / Fudan / McGill) (EMNLP 2025), Table 1.)",
+    "grounding_facts": [
+      {
+        "type": "number",
+        "value": 54.59
+      },
+      {
+        "type": "number",
+        "value": 4.49
+      }
+    ]
+  },
+  {
+    "id": "q28",
+    "case": 2,
+    "case_label": "Case 2: Evidence-Uncertain Memory (paper known, location forgotten)",
+    "query_text": "Can you remind me what that FM-Index retrieval-generation paper actually did about the failure mode they found, something about pruning too aggressively during constrained decoding? They built two separate fixes around it -- I just don't remember which section covered it.",
+    "gold_paper_id": "2025.acl-long.819",
+    "gold_artifact_id": null,
+    "gold_modality": "passage",
+    "qualitative": true,
+    "reference_answer": "They introduce two fixes: hierarchical FM-Index constraints, which generate corpus-constrained clues to narrow down to a relevant subset of documents before evidence generation, and a forward-looking constrained decoding strategy that considers the relevance of future sequences to improve evidence accuracy. Together these address the 'false pruning' problem, where correct evidence sequences get pruned due to errors made early in decoding. (\"RetroLLM: Empowering Large Language Models to Retrieve Fine-grained Evidence within Generation\" -- Xiaoxi Li, Jiajie Jin, Yujia Zhou, Yongkang Wu, Zhonghua Li, Qi Ye, Zhicheng Dou (Renmin University of China / Tsinghua / Huawei) (ACL 2025), discussed in \u00a72.2 and detailed in Appendix B.)",
+    "gold_keywords": [
+      "hierarchical",
+      "forward-looking"
+    ],
+    "grounding_facts": [
+      {
+        "type": "text",
+        "value": "hierarchical FM-Index",
+        "aliases": [
+          "hierarchical constraints",
+          "hierarchical FM-index constraints"
+        ]
+      },
+      {
+        "type": "text",
+        "value": "forward-looking",
+        "aliases": [
+          "forward looking",
+          "future sequences"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "q04",
+    "case": 2,
+    "case_label": "Case 2: Evidence-Uncertain Memory (paper known, location forgotten)",
+    "query_text": "I keep thinking of the knowledge-triple iterative retrieval paper -- it did clearly better than other multi-round retrieval approaches on some multi-hop benchmark, but I can't remember which section had the actual numbers. What kind of gains did they report?",
+    "gold_paper_id": "2025.acl-long.929",
+    "gold_artifact_id": null,
+    "gold_modality": "passage",
+    "gold_keywords": [
+      "9.40",
+      "5.14",
+      "R@"
+    ],
+    "qualitative": false,
+    "reference_answer": "About a 9.40% average improvement in R@3 and 5.14% in F1 over existing iterative RAG (iRAG) models on multi-hop QA datasets. (\"KiRAG: Knowledge-Driven Iterative Retriever for Enhancing Retrieval-Augmented Generation\" -- Jinyuan Fang, Zaiqiao Meng (University of Glasgow) (ACL 2025), stated in the abstract.)",
+    "grounding_facts": [
+      {
+        "type": "number",
+        "value": 9.4
+      },
+      {
+        "type": "number",
+        "value": 5.14
+      }
+    ],
+    "hardened": true
+  },
+  {
+    "id": "q05",
+    "case": 2,
+    "case_label": "Case 2: Evidence-Uncertain Memory (paper known, location forgotten)",
+    "query_text": "There was a paper about answering questions about pictures using outside information, searching in more than one round -- first broadly then more precisely -- from a large tech company. Don't remember exactly where in the paper, but I think one of the middle rounds mattered more than the others. Which one, and by how much?",
+    "gold_paper_id": "2025.acl-long.1198",
+    "gold_artifact_id": "2025.acl-long.1198#table_004",
+    "gold_modality": "table",
+    "qualitative": false,
+    "reference_answer": "Turning on the multimodal fusion reranking stage (step 2) is what matters most: InfoSeek jumps from 18.87 to 31.38 (~12.5 points), while adding the final text-reranking stage (step 3) only adds another ~2 points (31.38 to 33.29). (\"OMGM: Orchestrate Multiple Granularities and Modalities for Efficient Multimodal Retrieval\" -- Wei Yang, Jingjing Fu, Rui Wang, Jinyu Wang, Lei Song, Jiang Bian (Microsoft) (ACL 2025), Table 4.)",
+    "grounding_facts": [
+      {
+        "type": "number",
+        "value": 18.87
+      },
+      {
+        "type": "number",
+        "value": 31.38
+      },
+      {
+        "type": "text",
+        "value": "step 2",
+        "aliases": [
+          "step-2",
+          "step2"
+        ]
+      }
+    ],
+    "hardened": true
+  },
+  {
+    "id": "q47",
+    "case": 2,
+    "case_label": "Case 2: Evidence-Uncertain Memory (paper known, location forgotten)",
+    "query_text": "Wasn't there an Ant Group paper on multi-semantic RAG that reported a solid improvement range over existing methods somewhere in the results? I couldn't tell you which table or the exact percentage.",
+    "gold_paper_id": "2025.emnlp-main.1151",
+    "gold_artifact_id": null,
+    "gold_modality": "passage",
+    "gold_keywords": [
+      "10%-30%",
+      "improvement"
+    ],
+    "qualitative": false,
+    "reference_answer": "MS-RAG reports roughly a 10%-30% improvement in retrieval accuracy over existing methods. (\"MS-RAG: Simple and Effective Multi-Semantic Retrieval-Augmented Generation\" -- Xiaozhou You, Yahui Luo (Ant Group) (EMNLP 2025), stated in the abstract.)",
+    "grounding_facts": [
+      {
+        "type": "text",
+        "value": "10%-30%",
+        "aliases": [
+          "10-30%",
+          "10 to 30",
+          "10%-30",
+          "10% to 30%"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "q17",
+    "case": 3,
+    "case_label": "Case 3: Paper-Uncertain Memory (paper absent, evidence distinctive)",
+    "gap_target": "time/encounter-context C",
+    "query_text": "There's a multi-hop QA paper where two coupled processes run side by side -- one drives the reasoning and figures out what's still missing, the other organizes everything retrieved so far into a running knowledge outline that feeds back into the first. They report getting close to, or even beating, oracle-level retrieval performance. How do the two pieces actually work together?",
+    "gold_paper_id": "2025.acl-long.1539",
+    "gold_artifact_id": null,
+    "gold_modality": "passage",
+    "gold_keywords": [
+      "RaQ",
+      "pKA"
+    ],
+    "qualitative": false,
+    "reference_answer": "That's DualRAG -- its two coupled processes are Reasoning-augmented Querying (RaQ) and progressive Knowledge Aggregation (pKA), and the paper reports approaching, and in some cases surpassing, the performance achieved with oracle knowledge access. (\"DualRAG: A Dual-Process Approach to Integrate Reasoning and Retrieval for Multi-Hop Question Answering\" -- Rong Cheng, Jinyi Liu, Yan Zheng, et al. (Tianjin University) (ACL 2025), stated in the abstract and detailed in \u00a73.1.)",
+    "grounding_facts": [
+      {
+        "type": "text",
+        "value": "DualRAG"
+      },
+      {
+        "type": "text",
+        "value": "oracle"
+      }
+    ]
+  },
+  {
+    "id": "q24",
+    "case": 3,
+    "case_label": "Case 3: Paper-Uncertain Memory (paper absent, evidence distinctive)",
+    "query_text": "A paper introducing a new benchmark specifically for code search and code-related retrieval tasks, because they felt existing tests didn't cover enough programming languages or task types, and models were just gaming the old leaderboards. What gap were they specifically addressing?",
+    "gold_paper_id": "2025.acl-long.1072",
+    "gold_artifact_id": null,
+    "gold_modality": "passage",
+    "qualitative": false,
+    "reference_answer": "COIR addresses the lack of a comprehensive code retrieval benchmark -- prior work didn't adequately represent diverse code domains/tasks, and models were overfitting to existing leaderboards. (\"COIR: A Comprehensive Benchmark for Code Information Retrieval Models\" -- Xiangyang Li, Kuicai Dong, Yi Quan Lee, Wei Xia, Hao Zhang, Xinyi Dai, Yasheng Wang, Ruiming Tang (Huawei Noah's Ark Lab) (ACL 2025), stated in the abstract and introduction.)",
+    "gold_keywords": [
+      "code retrieval",
+      "overfit"
+    ],
+    "grounding_facts": [
+      {
+        "type": "text",
+        "value": "code retrieval"
+      },
+      {
+        "type": "text",
+        "value": "overfit",
+        "aliases": [
+          "overfitting"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "q25",
+    "case": 3,
+    "case_label": "Case 3: Paper-Uncertain Memory (paper absent, evidence distinctive)",
+    "query_text": "A paper proposing a retrieval method that breaks documents down into small subject-relation-object style facts, then iteratively pulls in whichever of these bite-sized facts are still missing to complete a chain of reasoning toward the answer. How does it decide which fact to fetch next at each step?",
+    "gold_paper_id": "2025.acl-long.929",
+    "gold_artifact_id": null,
+    "gold_modality": "passage",
+    "qualitative": false,
+    "reference_answer": "KiRAG decomposes documents into knowledge triples and uses a reasoning-driven Reasoning Chain Aligner to dynamically identify which knowledge triples are needed to bridge information gaps at each iterative retrieval step. (\"KiRAG: Knowledge-Driven Iterative Retriever for Enhancing Retrieval-Augmented Generation\" -- Jinyuan Fang, Zaiqiao Meng (University of Glasgow) (ACL 2025), \u00a73.2 \"Knowledge-Driven Iterative Retrieval.\")",
+    "gold_keywords": [
+      "knowledge triples",
+      "reasoning"
+    ],
+    "grounding_facts": [
+      {
+        "type": "text",
+        "value": "knowledge triples",
+        "aliases": [
+          "triples"
+        ]
+      },
+      {
+        "type": "text",
+        "value": "reasoning"
+      }
+    ]
+  },
+  {
+    "id": "q10",
+    "case": 3,
+    "case_label": "Case 3: Paper-Uncertain Memory (paper absent, evidence distinctive)",
+    "query_text": "Been trying to place a paper about answering questions by reading whole documents, where they stored parsed information in more than one kind of database at once, structured and unstructured. There was some diagram of this setup -- what did it actually show?",
+    "gold_paper_id": "2025.acl-long.311",
+    "gold_artifact_id": "2025.acl-long.311#figure_010",
+    "gold_modality": "figure",
+    "qualitative": false,
+    "reference_answer": "NeuSym-RAG -- a hybrid neural-symbolic retrieval framework for PDF QA that organizes parsed PDF content into both a relational database and a vectorstore; Figure 10 shows the full database schema. (\"NeuSym-RAG: Hybrid Neural Symbolic Retrieval with Multiview Structuring for PDF Question Answering\" -- Ruisheng Cao, Hanchong Zhang, Tiancheng Huang, et al. (Shanghai Jiao Tong University) (ACL 2025), Figure 10.)",
+    "grounding_facts": [
+      {
+        "type": "text",
+        "value": "relational database",
+        "aliases": [
+          "relational db"
+        ]
+      },
+      {
+        "type": "text",
+        "value": "vector store",
+        "aliases": [
+          "vectorstore",
+          "vector-store"
+        ]
+      }
+    ],
+    "hardened": true
+  },
+  {
+    "id": "q01",
+    "case": 4,
+    "case_label": "Case 4: Weak Joint Memory (both source and evidence uncertain)",
+    "query_text": "I remember reading a paper that trained a model to answer questions about spreadsheet-like data, using trial-and-reward style training instead of plain supervised learning. There was a table somewhere showing it doing noticeably better than the untrained starting point on one of the tasks. Can you tell me roughly how much better it did?",
+    "gold_paper_id": "2025.emnlp-main.1040",
+    "gold_artifact_id": "2025.emnlp-main.1040#table_002",
+    "gold_modality": "table",
+    "qualitative": false,
+    "reference_answer": "About 11 points higher: Table-R1-Zero (Llama-3.1 init) scores 32.7 on FeTaQA vs. 21.7 for the plain Llama-3.1-8B-Instruct baseline. (\"Table-R1: Inference-Time Scaling for Table Reasoning\" -- Zheyuan Yang, Lyuhao Chen, Arman Cohan, Yilun Zhao (Yale NLP Lab / CMU) (EMNLP 2025), Table 2.)",
+    "grounding_facts": [
+      {
+        "type": "number",
+        "value": 32.7
+      },
+      {
+        "type": "number",
+        "value": 21.7
+      }
+    ],
+    "hardened": true
+  },
+  {
+    "id": "q02",
+    "case": 4,
+    "case_label": "Case 4: Weak Joint Memory (both source and evidence uncertain)",
+    "query_text": "There's a paper I keep mixing up with others -- something about making a search system prioritize better results, trained in a way that didn't need much labeled supervision. Not sure exactly what technique they used or what they compared against.",
+    "gold_paper_id": "2025.emnlp-main.125",
+    "gold_artifact_id": "2025.emnlp-main.125#table_001",
+    "gold_modality": "table",
+    "qualitative": false,
+    "reference_answer": "REARANK-7B gets 54.59 BEIR average, which is +4.49 over the RankQwen2.5-7B zero-shot baseline (50.10). (\"REARANK: Reasoning Re-ranking Agent via Reinforcement Learning\" -- Le Zhang, Bo Wang, Xipeng Qiu, Siva Reddy, Aishwarya Agrawal (Mila / Fudan / McGill) (EMNLP 2025), Table 1.)",
+    "grounding_facts": [
+      {
+        "type": "number",
+        "value": 54.59
+      },
+      {
+        "type": "number",
+        "value": 4.49
+      }
+    ],
+    "hardened": true,
+    "hardened_v2": true
+  },
+  {
+    "id": "q03",
+    "case": 4,
+    "case_label": "Case 4: Weak Joint Memory (both source and evidence uncertain)",
+    "query_text": "Pretty sure I read a paper about making a language model fetch and generate answers in one continuous process instead of two separate steps. There was a table comparing how much storage and setup time it needed versus a standard search-based approach -- theirs was smaller and quicker. How much, exactly?",
+    "gold_paper_id": "2025.acl-long.819",
+    "gold_artifact_id": "2025.acl-long.819#table_011",
+    "gold_modality": "table",
+    "qualitative": true,
+    "reference_answer": "RetroLLM's FM-Index takes 20.7 GB and 5.39h to build, vs. E5-Base's dense embeddings at 60.1 GB and 7.57h -- roughly a third of the storage and noticeably faster to build. (\"RetroLLM: Empowering Large Language Models to Retrieve Fine-grained Evidence within Generation\" -- Xiaoxi Li, Jiajie Jin, Yujia Zhou, Yongkang Wu, Zhonghua Li, Qi Ye, Zhicheng Dou (Renmin University of China / Tsinghua / Huawei) (ACL 2025), Table 9.)",
+    "grounding_facts": [
+      {
+        "type": "number",
+        "value": 20.7
+      },
+      {
+        "type": "number",
+        "value": 60.1
+      }
+    ],
+    "hardened": true
+  },
+  {
+    "id": "q16",
+    "case": 4,
+    "case_label": "Case 4: Weak Joint Memory (both source and evidence uncertain)",
+    "gap_target": "visual-appearance E",
+    "query_text": "I remember a scatter plot from some paper on retrieval -- a bunch of colored dots trading off accuracy against how long each query took, roughly clustered somewhere between 5 and 25 seconds on the x-axis and up in the 70s-to-90-percent range on the y-axis. No memory of the method names or which paper it was from, just that plot. Can you figure out which paper that's from?",
+    "gold_paper_id": "2025.acl-long.929",
+    "gold_artifact_id": "2025.acl-long.929#figure_005",
+    "gold_modality": "figure",
+    "qualitative": false,
+    "reference_answer": "That's Figure 5 from the KiRAG paper -- a scatter plot of R@3 (%) vs. latency (seconds) on the HotpotQA test set for different models, with latency roughly 5-25s and R@3 roughly 70-90%, showing the retrieval-accuracy/speed tradeoff across models including a KiRAG (online) variant. (\"KiRAG: Knowledge-Driven Iterative Retriever for Enhancing Retrieval-Augmented Generation\" -- Jinyuan Fang, Zaiqiao Meng (University of Glasgow) (ACL 2025), Figure 5.)",
+    "grounding_facts": [
+      {
+        "type": "text",
+        "value": "KiRAG"
+      },
+      {
+        "type": "text",
+        "value": "latency",
+        "aliases": [
+          "speed",
+          "time per query",
+          "seconds"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "q13",
+    "case": 5,
+    "case_label": "Case 5: Cross-Paper Memory, genuine comparison",
+    "query_text": "There are two multi-hop QA papers that both get evaluated on the exact same three benchmarks -- MuSiQue, 2Wiki, and HotpotQA. One of them actually coins a specific term for entities going missing during multi-step retrieval; the other doesn't use that term at all, it just runs two coupled processes side by side. Which one names that problem, and what's it called?",
+    "gold_paper_ids": [
+      "2025.acl-long.1089",
+      "2025.acl-long.1539"
+    ],
+    "gold_artifact_id": null,
+    "gold_modality": "passage",
+    "gold_keywords_by_paper": {
+      "2025.acl-long.1089": [
+        "lost-in-retrieval"
+      ],
+      "2025.acl-long.1539": [
+        "closed-loop"
+      ]
+    },
+    "qualitative": false,
+    "reference_answer": "The Nanjing University paper is the one that names it -- the 'lost-in-retrieval' problem, where key entities go missing during multi-hop retrieval. DualRAG evaluates on the same three benchmarks but never uses that term; its own framing is a dual closed-loop process coupling reasoning and retrieval instead. (\"Mitigating Lost-in-Retrieval Problems in Retrieval Augmented Multi-Hop Question Answering\" -- Rongzhi Zhu, Xiangyu Liu, Zequn Sun, Yiwei Wang, Wei Hu (Nanjing University) (ACL 2025), abstract/\u00a71; \"DualRAG: A Dual-Process Approach to Integrate Reasoning and Retrieval for Multi-Hop Question Answering\" -- Rong Cheng, Jinyi Liu, Yan Zheng, et al. (Tianjin University) (ACL 2025), Table 2/\u00a74.)",
+    "grounding_facts": [
+      {
+        "type": "text",
+        "value": "lost-in-retrieval"
+      },
+      {
+        "type": "text",
+        "value": "DualRAG"
+      }
+    ]
+  },
+  {
+    "id": "q14",
+    "case": 5,
+    "case_label": "Case 5: Cross-Paper Memory, genuine comparison",
+    "query_text": "Two multimodal retrieval papers I mix up -- one of them is actually a benchmark, scored with NDCG@5 across finance and tech documents; the other is a retrieval method with a coarse-to-fine multi-step pipeline, tested on knowledge-based visual QA datasets. Which one's the benchmark and which one's the method, and what task is each actually built for?",
+    "gold_paper_ids": [
+      "2025.acl-long.1528",
+      "2025.acl-long.1198"
+    ],
+    "gold_artifact_id": null,
+    "gold_modality": "passage",
+    "gold_keywords_by_paper": {
+      "2025.acl-long.1528": [
+        "NDCG"
+      ],
+      "2025.acl-long.1198": [
+        "InfoSeek"
+      ]
+    },
+    "qualitative": false,
+    "reference_answer": "REAL-MM-RAG (IBM Research) is the benchmark -- it scores models with NDCG@5 across finance and technical document retrieval. OMGM (Microsoft) is the method -- a coarse-to-fine, multi-step multimodal retrieval pipeline evaluated on the InfoSeek and Encyclopedic-VQA knowledge-based visual QA datasets. Different papers, different tasks: a document-retrieval benchmark vs. a KB-VQA retrieval method. (\"REAL-MM-RAG: A Real-World Multi-Modal Retrieval Benchmark\" -- Navve Wasserman, Roi Pony, Oshri Naparstek, Adi Raz Goldfarb, Eli Schwartz, Udi Barzelay, Leonid Karlinsky (IBM Research Israel) (ACL 2025), Table 2; \"OMGM: Orchestrate Multiple Granularities and Modalities for Efficient Multimodal Retrieval\" -- Wei Yang, Jingjing Fu, Rui Wang, Jinyu Wang, Lei Song, Jiang Bian (Microsoft) (ACL 2025), \u00a74.1.)",
+    "grounding_facts": [
+      {
+        "type": "text",
+        "value": "REAL-MM-RAG"
+      },
+      {
+        "type": "text",
+        "value": "OMGM"
+      },
+      {
+        "type": "text",
+        "value": "benchmark"
+      }
+    ]
+  },
+  {
+    "id": "q15",
+    "case": 5,
+    "case_label": "Case 5: Cross-Paper Memory, genuine comparison",
+    "query_text": "Two new benchmark papers from this year that I keep mixing up -- one breaks its evaluation into four main tasks with several sub-tasks under each, for one kind of retrieval; the other defines six different settings, including one about editing the answer and one about checking whether an answer even exists in a smaller graph. Which is the code one and which is the graph one, and how many tasks or settings does each actually define?",
+    "gold_paper_ids": [
+      "2025.acl-long.1072",
+      "2025.acl-long.1478"
+    ],
+    "gold_artifact_id": null,
+    "gold_modality": "passage",
+    "gold_keywords_by_paper": {
+      "2025.acl-long.1072": [
+        "Text-to-Code"
+      ],
+      "2025.acl-long.1478": [
+        "Answerability"
+      ]
+    },
+    "qualitative": false,
+    "reference_answer": "COIR is the code one -- 4 primary tasks (Text-to-Code, Code-to-Code, Code-to-Text, Hybrid Code Retrieval) split into 8 sub-tasks across 10 datasets. M3GQA is the graph one -- six settings: Single-hop, Multi-hop, Set, Aggregation, Editing, and Answerability. (\"COIR: A Comprehensive Benchmark for Code Information Retrieval Models\" -- Xiangyang Li, Kuicai Dong, Yi Quan Lee, Wei Xia, Hao Zhang, Xinyi Dai, Yasheng Wang, Ruiming Tang (Huawei Noah's Ark Lab) (ACL 2025), \u00a73/Table 1; \"M3GQA: A Multi-Entity Multi-Hop Multi-Setting Graph Question Answering Benchmark\" -- Boci Peng, Yongchao Liu, Xiaohe Bo, et al. (Peking University / Ant Group) (ACL 2025), \u00a73.)",
+    "grounding_facts": [
+      {
+        "type": "text",
+        "value": "COIR"
+      },
+      {
+        "type": "text",
+        "value": "M3GQA"
+      },
+      {
+        "type": "text",
+        "value": "six",
+        "aliases": [
+          "6"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "q29",
+    "case": 5,
+    "case_label": "Case 5: Cross-Paper Memory, genuine comparison",
+    "query_text": "Both of these papers train their model with the same RL algorithm, GRPO -- one for reranking search results, the other for table reasoning. But their reward signals aren't measuring the same thing: one's reward is based on ranking quality, the other's is based on getting the exact answer right. Which is which?",
+    "gold_paper_ids": [
+      "2025.emnlp-main.125",
+      "2025.emnlp-main.1040"
+    ],
+    "gold_artifact_id": null,
+    "gold_modality": "passage",
+    "gold_keywords_by_paper": {
+      "2025.emnlp-main.125": [
+        "NDCG"
+      ],
+      "2025.emnlp-main.1040": [
+        "exact match"
+      ]
+    },
+    "qualitative": false,
+    "reference_answer": "REARANK's reward is ranking-quality based -- an NDCG@10 signal over the reranked passage list. Table-R1's TableR1-Zero reward is answer-correctness based -- task-specific verifiable rewards (e.g. exact match for short-form table QA) on the final answer. Both use GRPO, but the reward design targets different things: ranking quality vs. answer accuracy. (\"REARANK: Reasoning Re-ranking Agent via Reinforcement Learning\" -- Le Zhang, Bo Wang, Xipeng Qiu, Siva Reddy, Aishwarya Agrawal (Mila / Fudan / McGill) (EMNLP 2025), \u00a73.3; \"Table-R1: Inference-Time Scaling for Table Reasoning\" -- Zheyuan Yang, Lyuhao Chen, Arman Cohan, Yilun Zhao (Yale NLP Lab / CMU) (EMNLP 2025), \u00a73.3.)",
+    "grounding_facts": [
+      {
+        "type": "text",
+        "value": "NDCG"
+      },
+      {
+        "type": "text",
+        "value": "exact match"
+      }
+    ]
+  },
+  {
+    "id": "q33",
+    "case": 6,
+    "case_label": "Case 6: Inaccurate Memory (confident but factually wrong detail)",
+    "query_text": "That FM-Index retrieval-generation paper -- pretty sure their compact index came out to around 40GB, still way smaller than the roughly 60GB dense-embedding setup they compared against, and that's what let it build so much faster. That's right, isn't it?",
+    "gold_paper_id": "2025.acl-long.819",
+    "gold_artifact_id": "2025.acl-long.819#table_011",
+    "gold_modality": "table",
+    "qualitative": false,
+    "reference_answer": "Not quite -- the FM-Index is actually much smaller than 40GB: it's 20.7GB, versus 60.1GB for the E5-Base dense-embedding baseline (roughly a third the size, not just under half). The direction of your memory is right -- smaller and faster to build, 5.39h vs. 7.57h -- but that's RetroLLM, and the specific number you quoted is off. (\"RetroLLM: Empowering Large Language Models to Retrieve Fine-grained Evidence within Generation\" -- Xiaoxi Li, Jiajie Jin, Yujia Zhou, Yongkang Wu, Zhonghua Li, Qi Ye, Zhicheng Dou (Renmin University of China / Tsinghua / Huawei) (ACL 2025), Table 9.)",
+    "grounding_facts": [
+      {
+        "type": "number",
+        "value": 20.7
+      },
+      {
+        "type": "number",
+        "value": 60.1
+      },
+      {
+        "type": "text",
+        "value": "not quite",
+        "aliases": [
+          "actually",
+          "not correct",
+          "misremember",
+          "off",
+          "mistaken",
+          "not accurate",
+          "incorrect"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "q34",
+    "case": 6,
+    "case_label": "Case 6: Inaccurate Memory (confident but factually wrong detail)",
+    "query_text": "The knowledge-triple iterative retrieval paper -- I remember their whole idea was combining a knowledge graph with dense vectors through chunk-level, relation-level, and entity-level indexes. That's the one, right?",
+    "gold_paper_id": "2025.acl-long.929",
+    "gold_artifact_id": null,
+    "gold_modality": "passage",
+    "gold_keywords": [
+      "Reasoning Chain Aligner",
+      "knowledge triples"
+    ],
+    "qualitative": true,
+    "reference_answer": "You've got the paper right -- that's KiRAG -- but mixed up the mechanism. KiRAG decomposes documents into knowledge triples and uses a Reasoning Chain Aligner to dynamically figure out which triples are needed at each retrieval step. The chunk-level/relation-level/entity-level knowledge-graph-plus-dense-vector indexing you're describing is actually a different paper, MS-RAG. (\"KiRAG: Knowledge-Driven Iterative Retriever for Enhancing Retrieval-Augmented Generation\" -- Jinyuan Fang, Zaiqiao Meng (University of Glasgow) (ACL 2025), \u00a73.2; \"MS-RAG: Simple and Effective Multi-Semantic Retrieval-Augmented Generation\" -- Xiaozhou You, Yahui Luo (Ant Group) (EMNLP 2025), abstract.)",
+    "grounding_facts": [
+      {
+        "type": "text",
+        "value": "Reasoning Chain Aligner",
+        "aliases": [
+          "reasoning chain aligner"
+        ]
+      },
+      {
+        "type": "text",
+        "value": "MS-RAG"
+      },
+      {
+        "type": "text",
+        "value": "different",
+        "aliases": [
+          "not the same",
+          "mixed up",
+          "misremember",
+          "that's a different",
+          "actually a different"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "q35",
+    "case": 6,
+    "case_label": "Case 6: Inaccurate Memory (confident but factually wrong detail)",
+    "query_text": "That Microsoft coarse-to-fine multimodal RAG paper -- I recall their ablation showing that combining image and text actually made retrieval worse than using text alone, which really surprised me. Is that right?",
+    "gold_paper_id": "2025.acl-long.1198",
+    "gold_artifact_id": "2025.acl-long.1198#table_014",
+    "gold_modality": "table",
+    "qualitative": false,
+    "reference_answer": "That's backwards -- combining image and text substantially improved retrieval in OMGM's ablation, not worsened it: R@1 jumps from 25.8 (text-only) to 51.3 when both image and text are used, nearly double. You may be misremembering the direction of that result. (\"OMGM: Orchestrate Multiple Granularities and Modalities for Efficient Multimodal Retrieval\" -- Wei Yang, Jingjing Fu, Rui Wang, Jinyu Wang, Lei Song, Jiang Bian (Microsoft) (ACL 2025), Table 14.)",
+    "grounding_facts": [
+      {
+        "type": "number",
+        "value": 51.3
+      },
+      {
+        "type": "number",
+        "value": 25.8
+      },
+      {
+        "type": "text",
+        "value": "backwards",
+        "aliases": [
+          "opposite",
+          "improved",
+          "actually improved",
+          "not worse",
+          "misremember"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "q36",
+    "case": 6,
+    "case_label": "Case 6: Inaccurate Memory (confident but factually wrong detail)",
+    "query_text": "That Yale table-reasoning group's paper -- I remember they stored parsed PDF content in a relational database plus a vector store for question answering, with a diagram of the schema somewhere. Which one was that again, so I can double check something?",
+    "gold_paper_id": "2025.acl-long.311",
+    "gold_artifact_id": "2025.acl-long.311#figure_010",
+    "gold_modality": "figure",
+    "qualitative": false,
+    "reference_answer": "That's actually a different paper than the Yale group's work -- the relational-database-plus-vectorstore setup for PDF question answering is NeuSym-RAG, from Shanghai Jiao Tong University, not the Yale table-reasoning paper (which is Table-R1, about table reasoning, not PDF QA). Figure 10 in NeuSym-RAG shows that database schema. (\"NeuSym-RAG: Hybrid Neural Symbolic Retrieval with Multiview Structuring for PDF Question Answering\" -- Ruisheng Cao, Hanchong Zhang, Tiancheng Huang, et al. (Shanghai Jiao Tong University) (ACL 2025), Figure 10.)",
+    "grounding_facts": [
+      {
+        "type": "text",
+        "value": "NeuSym-RAG"
+      },
+      {
+        "type": "text",
+        "value": "Shanghai Jiao Tong",
+        "aliases": [
+          "SJTU"
+        ]
+      },
+      {
+        "type": "text",
+        "value": "different",
+        "aliases": [
+          "not the Yale",
+          "separate paper",
+          "actually a different",
+          "not the same"
+        ]
+      }
+    ]
+  }
+]

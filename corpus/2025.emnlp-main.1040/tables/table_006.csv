@@ -1,0 +1,5 @@
+Model,Citation,Version
+GPT-4.1 GPT-4.1 mini,OpenAI (2024) OpenAI (2024),gpt-4.1-2025-04-14 gpt-4.1-mini-2025-04-14
+Qwen2.5-7B Qwen2.5-14B Qwen2.5-32B QwQ-32B Llama-3.1-8B,Team (2024) Team (2024) Team (2024) Team (2025) Touvron et al. (2023),Qwen/Qwen2.5-7B-Instruct Qwen/Qwen2.5-14B-Instruct Qwen/Qwen2.5-32B-Instruct Qwen/QwQ-32B meta-llama/Llama-3.1-8B-Instruct
+DeepSeek-R1-7B DeepSeek-R1-14B DeepSeek-R1-32B DeepSeek-R1,Guo et al. (2025) Guo et al. (2025) Guo et al. (2025) Guo et al. (2025),deepseek-ai/DeepSeek-R1-Distill-Qwen-7B deepseek-ai/DeepSeek-R1-Distill-Qwen-14B deepseek-ai/DeepSeek-R1-Distill-Qwen-32B deepseek-ai/DeepSeek-R1
+TableGPT2-7B TableLLM-13B TableLlama-7B TableBenchLLM,Su et al. (2024) Zhang et al. (2024b) Zhang et al. (2023) Zhang et al. (2024b),TableGPT/TableGPT2-7B RUCKBReasoning/TableLLM-13B osunlp/TableLlama Multilingual-Multimodal-NLP/TableLLM-Llama3.1-8B

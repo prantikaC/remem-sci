@@ -1,0 +1,3 @@
+,GraphRAG,HippoRAG,MS-RAG (ours)
+Indexing,"extract graph, summarization, extract hierarchical community, ......",build graph,build graph
+Retrieval,"extract entity, summarization, community answers, ......",entity extraction,rerank

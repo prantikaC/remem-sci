@@ -1,0 +1,4 @@
+,R@2,R@5
+MS-RAG,79.4,88.5
+MS-RAG w/o multi-semantic,73.3,79.2
+MS-RAG w/o rerank,76.1,84.9
